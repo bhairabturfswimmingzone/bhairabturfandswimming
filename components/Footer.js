@@ -22,7 +22,7 @@ const Footer = () => {
                             </div>
                             <div className='footer__description-wrap'>
                                 <p className='footer__description-text'>
-                                    The Home of Football in Bhairab Turf & Swimming Zone
+                                    Bhairab Turf & Swimming Zone — Where Champions Play. Experience premier artificial turf football with modern facilities and unforgettable moments.
                                 </p>
                             </div>
                         </div>
