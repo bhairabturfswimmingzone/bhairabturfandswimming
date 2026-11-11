@@ -93,7 +93,7 @@ const BookingContent = () => {
     paymentType: "advance",
     bookingForName: "",
     bookingForPhone: "",
-    advanceAmount: 1,
+    advanceAmount: 500,
     couponCode: "",
     cashAmount: "",
   });
@@ -152,11 +152,11 @@ const BookingContent = () => {
   const isStaff = role && role !== "REGULAR_CUSTOMER";
   const isGuest = !session;
 
-  const MIN_ADVANCE = 1;
+  const MIN_ADVANCE = 500;
   useEffect(() => {
     setFormData((prev) => ({
       ...prev,
-      advanceAmount: 1,
+      advanceAmount: 500,
     }));
   }, []);
 
@@ -221,7 +221,7 @@ const BookingContent = () => {
     setFormData((prev) => ({
       ...prev,
       paymentType: selectedType,
-      advanceAmount: selectedType === "advance" ? (prev.advanceAmount && prev.advanceAmount >= 1 ? prev.advanceAmount : 1) : prev.advanceAmount,
+      advanceAmount: selectedType === "advance" ? (prev.advanceAmount && prev.advanceAmount >= 500 ? prev.advanceAmount : 500) : prev.advanceAmount,
     }));
     if (errors.paymentType) setErrors((prev) => ({ ...prev, paymentType: "" }));
   };
