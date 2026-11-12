@@ -90,7 +90,7 @@ export default function SignupPage() {
               Create your account
             </h3>
             <p className="primary-text signup__text">
-              The Home of Football in Mymensingh
+              The Home of Football in Bhairab
             </p>
 
             <form className="signup__form" onSubmit={handleSubmit}>
