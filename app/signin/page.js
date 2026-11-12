@@ -66,7 +66,7 @@ export default function SigninPage() {
               Welcome to Bhairab Turf & Swimming Zone
             </h3>
             <p className="primary-text signin__text">
-              The Home of Football in Mymensingh
+              The Home of Football in Bhairab
             </p>
 
             <form className="signin__form" onSubmit={handleLogin}>
