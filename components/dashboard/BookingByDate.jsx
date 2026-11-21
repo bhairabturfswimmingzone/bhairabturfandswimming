@@ -17,9 +17,15 @@ export default function BookingByDate() {
 
   // System's actual time slots from ManageSlotPrice.jsx
   const daySlots = [
+    "12:00am to 01:00am",
+    "01:00am to 02:00am",
+    "02:00am to 03:00am",
+    "03:00am to 04:00am",
+    "04:00am to 05:00am",
     "05:00am to 06:00am",
     "06:00am to 07:00am",
     "07:00am to 08:00am",
+    "08:00am to 09:00am",
     "09:00am to 10:00am",
     "10:00am to 11:00am",
     "11:00am to 12:00pm",
@@ -36,12 +42,7 @@ export default function BookingByDate() {
     "08:00pm to 09:00pm",
     "09:00pm to 10:00pm",
     "10:00pm to 11:00pm",
-    "11:00pm to 12:00am",
-    "12:00am to 01:00am",
-    "01:00am to 02:00am",
-    "02:00am to 03:00am",
-    "03:00am to 04:00am",
-    "04:00am to 05:00am"
+    "11:00pm to 12:00am"
   ];
 
   const matchesArena = (arena1, arena2) => {
